@@ -1,4 +1,4 @@
-package com.starter.stoock;
+package com.starter.stoock.configs;
 
 import io.github.cdimascio.dotenv.Dotenv;
 import org.springframework.stereotype.Component;

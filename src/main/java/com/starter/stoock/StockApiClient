@@ -1,0 +1,19 @@
+package com.starter.stoock;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class StockApiClient{
+    private String apiKey;
+    private String apiUrl;
+
+    public StockApiClient(DotenvConfig dotenvConfig) {
+        this.apiKey = dotenvConfig.getApiKey(); // Get the API key from dotenvConfig
+        this.apiUrl = dotenvConfig.getApiUrl(); // Get the API URL from dotenvConfig
+    }
+
+    public String fetchStockData(){
+        //TODO: Implement the logic to call the external API using the apiUrl and apiKey
+    }
+
+}
