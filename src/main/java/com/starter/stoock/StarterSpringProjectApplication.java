@@ -1,4 +1,4 @@
-package com.starter.starter_spring_project;
+package com.starter.stoock;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
