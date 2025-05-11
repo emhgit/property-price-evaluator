@@ -9,7 +9,7 @@ public class DotenvConfig {
     private final Dotenv dotenv = Dotenv.load();
 
     //returns the api key from the .env file
-    public String getAttomApiKey() {
+    public String getApiKey() {
         return dotenv.get("ATTOM_API_KEY");
     }
 }
