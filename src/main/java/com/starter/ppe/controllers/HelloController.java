@@ -1,4 +1,4 @@
-package com.starter.stoock.controllers;
+package com.starter.ppe.controllers;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

@@ -3,7 +3,7 @@ package com.starter.stoock;
 import org.springframework.stereotype.Service;
 
 @Service
-public class StockApiClient{
+public class AttomClient{
     private String apiKey;
     private String apiUrl;
 
@@ -12,7 +12,7 @@ public class StockApiClient{
         this.apiUrl = dotenvConfig.getApiUrl(); // Get the API URL from dotenvConfig
     }
 
-    public String fetchStockData(){
+    public String fetchData(){
         //TODO: Implement the logic to call the external API using the apiUrl and apiKey
     }
 

@@ -1,4 +1,4 @@
-package com.starter.stoock;
+package com.starter.ppe;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
