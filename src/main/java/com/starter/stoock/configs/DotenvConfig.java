@@ -9,12 +9,7 @@ public class DotenvConfig {
     private final Dotenv dotenv = Dotenv.load();
 
     //returns the api key from the .env file
-    public String getApiKey() {
-        return dotenv.get("ALPHAVANTAGE_API_KEY");
-    }
-    
-    //returns the api url from the .env file
-    public String getApiUrl() {
-        return dotenv.get("ALPHAVANTAGE_API_URL");
+    public String getAttomApiKey() {
+        return dotenv.get("ATTOM_API_KEY");
     }
 }
