@@ -7,7 +7,7 @@ import com.starter.ppe.configs.DotenvConfig;
 @Service
 public class AttomClient{
     private String apiKey;
-    private String apiUrl;
+    private String apiUrl = "https://api.gateway.attomdata.com/propertyapi/v1.0.0/";
 
     public AttomClient(DotenvConfig dotenvConfig) {
         this.apiKey = dotenvConfig.getApiKey(); // Get the API key from dotenvConfig
